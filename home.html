@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Home</title>
+   <link rel="icon"  href="images/bird.jpg">
+
+    <style type="text/css">
+
+        .header{
+            width: 100%;
+            height: 700px;
+            background-image: url('images/z9.jpg');
+           
+            background-position: 100% 100%;
+            background-size: cover;
+            background-repeat: no-repeat; 
+            animation: zongo 8s step-end infinite;
+        }
+        @keyframes zongo {
+              0%{
+                background-image: url('images/z2.jpg');
+              }
+                20%{
+                background-image: url('images/z1.jpg');
+              }
+                40%{
+                background-image: url('images/z8.jpg');
+              }
+                60%{
+                background-image: url('images/z6.jpg');
+              }
+                80%{
+                background-image: url('images/z5.jpg');
+              }
+              100%{
+                  background-image: url('images/z4.jpg');s
+              }
+              
+          }
+        .Nav{
+            display: flex;
+            justify-content: space-between;
+            background-color: rgba(15, 178, 59, 0.5);
+            height: 4rem;
+            margin-top: 1rem;
+
+        }
+        .links ul{
+            display: flex;
+            list-style-type: none;
+            
+           
+
+        }
+        .links ul li{
+              padding: 1rem;
+        }
+        .links ul li a{
+            text-decoration: none;
+            color: black;
+            font-size: 1.5rem;
+            
+        }
+        .logo{
+            background-image: url('images/chines.png');
+            background-position: 100% 100%;
+
+            width: 100px;
+            height: 100px;
+            border: 2px #FF7396 dotted;
+            border-radius: 50%;
+
+        }
+        .links ul li button{
+            padding: 0.3rem .8rem;
+            font-size: 1rem;
+            color: black;
+            border-radius: .8rem;
+            border: 1px red dashed ;
+            background-color: ;
+        }
+        /*styling main page*/
+        .content{
+               display: flex;
+               flex-wrap: wrap;
+
+        }
+        .content--1{
+               width: 100%;
+               height: 200px;
+               background-color: rgba(220, 215, 201, 0.7);
+               padding: 0.3rem;
+               
+
+        }
+        .content--2{
+               width: 100%;
+               height: 400px;
+               display: flex;
+               flex-wrap: wrap;
+               justify-content: space-between;
+              
+               
+
+               
+
+        }
+        .cols{
+            width: 30%;
+            background-color: rgba(220, 215, 201, 0.5);
+            color: rgba(0, 0, 0, 1.0) ;
+            padding: 0.4rem;
+            
+           
+            
+
+
+        }
+        .cols button{
+                 background-color: green;
+                 padding: 0.5rem;
+                 border: none;
+                 justify-content: space-around;
+                 
+                 
+        }
+        .content--header--3{
+            text-align: center;
+            color: red;
+        }
+        .our--team{
+            width: 100%;
+            height: 100vh;
+            padding-top: 8rem;
+            display: flex;
+            justify-content: space-between;
+        }
+        .cols--2{
+            width: 20%;
+            height: 50vh;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="header">
+
+
+        <div class="Nav">
+             <div class="logo">
+                 
+             
+             </div>
+             <div class="links">
+                 
+
+                  <ul>
+                    <li><a href="#">Home</a></li>
+                      <li><a href="#">About Us</a></li>
+                      <li><a href="#">Portfolio</a></li>
+                      <li><a href="#">Contact</a></li>
+                      <li><button>Log In</button></li>
+                  </ul>
+             </div>
+        </div>
+            <div class="content">
+
+
+        <div class="content--1">
+
+            <h3>Welcome to my website</h3>
+            <p>
+                This is a sample webpage, a HTML and CSS template by the Zongovation team.The photo templete designed by our Graphic design team. This template to explain the basic HTML and CSS in our first web design course
+                Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.
+
+                The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32 and 1.10.33 from "de Finibus Bonorum et Malorum" by Cicero are also reproduced in their exact original form, accompanied by English versions from the 1914 translation by H. Rackham.
+            </p>
+        </div>
+        <hr />
+
+        <div class="content--2">
+
+            <div class="cols">
+                 <img src="images/z8.jpg" width="400px" height="200px">
+               <h3 class="content--header--3">UI DESIGN</h3>
+               <p>
+               It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).
+              </p>
+              <button>LEARN MORE</button> 
+            </div>
+             
+             <div class="cols">
+                <img src="images/z7.jpg" width="400px" height="200px">
+                <h3 class="content--header--3">WEB DEVELOPMENT</h3>
+                 <p>
+               It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).
+              </p>
+              <button>LEARN MORE</button>   
+             </div>
+              <div class="cols">
+                <img src="images/z3.jpg" width="400px" height="200px">
+                  <h3 class="content--header--3">APP DEVELOPMENT</h3>
+                   <p>
+               It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).
+              </p> 
+              <button>LEARN MORE</button> 
+              </div>
+        </div>
+        
+
+
+
+    </div>
+        
+    </div>
+
+
+    <div  class="our--team">
+           <h2> 45 BC, making it over 2000 years old. Richard McClintock, a Latin </h2>
+           <p>our Graphic design team. This template to explain the basic HTML and CSS in our first web design course Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes of </p>
+        <div class="cols--2">
+            
+        </div>
+        <div class="cols--2">
+            
+        </div>
+        <div class="cols--2">
+            
+        </div>
+        <div class="cols--2">
+            
+        </div>
+    </div>
+     <details>
+         <summary>Ghana</summary>
+         <p>Accra</p>
+         <p>Accra</p>
+         <p>Accra</p>
+         <p>Accra</p>
+         <p>Accra</p>
+     </details>
+   
+</body>
+</html>
